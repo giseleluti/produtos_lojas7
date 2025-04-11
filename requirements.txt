@@ -1,0 +1,5 @@
+pydantic~=2.10.6
+requests~=2.32.3
+flask~=3.0.3
+swagger-ui-bundle
+flasgger~=0.9.7.1

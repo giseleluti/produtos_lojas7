@@ -1,0 +1,18 @@
+{
+  "ListaEnvio": {
+    "type": "array",
+    "items": {
+      "type": "object",
+      "properties": {
+        "titulo": { "type": "string" },
+        "id_produto": { "type": "integer" },
+        "preco": { "type": "number" }
+      },
+      "example": {
+        "titulo": "Notebook",
+        "id_produto": 1,
+        "preco": 2000.99
+      }
+    }
+  }
+}

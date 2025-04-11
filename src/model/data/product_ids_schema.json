@@ -1,0 +1,23 @@
+{
+  "Product_ids": {
+    "type": "object",
+    "properties": {
+      "product_ids": {
+        "type": "array",
+        "items": {
+          "type": "integer"
+        },
+        "description": "Lista de IDs dos produtos a serem selecionados do banco de dados e enviados"
+      }
+    },
+    "required": [
+      "product_ids"
+    ]
+  },
+    "example": {
+    "product_ids": [
+      5,
+      6
+    ]
+  }
+}

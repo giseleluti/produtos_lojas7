@@ -1,0 +1,72 @@
+# IntelliJ IDEA / PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+build/
+dist/
+eggs/
+.eggs/
+sdist/
+*.egg-info/
+wheelhouse/
+pip-log.txt
+pip-delete-this-directory.txt
+*.whl
+_wheels/
+*.pth
+
+# Flask related
+instance/
+*.sqlite  # Ignore SQLite database files
+*.db
+
+# Swagger related (if it generates any specific files)
+# Add any specific Swagger UI build output directories if applicable
+swagger_ui/
+dist_swagger/
+
+# Log files
+*.log
+
+# PyInstaller related
+*.spec
+build
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS Specific files (macOS)
+.DS_Store
+
+# Thumbnails
+Thumbs.db
+
+# Local development files (you might want to keep some)
+# .env  # Be VERY careful about ignoring this if it contains sensitive information
+# config.ini
+# secrets.json
+
+# Other temporary files
+*.pyc
+*~
+\#*\#
+.*.swp
+.ropeproject
+.coverage
+.tox
+.pytest_cache

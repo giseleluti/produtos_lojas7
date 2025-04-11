@@ -1,0 +1,48 @@
+{
+  "ListagemProdutos": {
+    "type": "object",
+    "properties": {
+      "produtos": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": { "type": "integer" },
+            "title": { "type": "string" },
+            "price": { "type": "number" },
+            "description": { "type": "string" },
+            "category": { "type": "string" },
+            "image": { "type": "string" }
+          },
+          "example": {
+            "id": 1,
+            "title": "Produto de Exemplo",
+            "price": 99.99,
+            "description": "Descrição do produto de exemplo",
+            "category": "Exemplo",
+            "image": "http://example.com/image.jpg"
+          }
+        }
+      }
+    }
+  },
+  "Produto": {
+    "type": "object",
+    "properties": {
+      "id": { "type": "integer" },
+      "title": { "type": "string" },
+      "price": { "type": "number" },
+      "description": { "type": "string" },
+      "category": { "type": "string" },
+      "image": { "type": "string" }
+    },
+    "example": {
+      "id": 1,
+      "title": "Produto de Exemplo",
+      "price": 99.99,
+      "description": "Descrição do produto de exemplo",
+      "category": "Exemplo",
+      "image": "http://example.com/image.jpg"
+    }
+  }
+}
