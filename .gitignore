@@ -7,7 +7,6 @@ out/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
 *$py.class
 
 # C extensions
@@ -32,8 +31,6 @@ _wheels/
 
 # Flask related
 instance/
-*.sqlite  # Ignore SQLite database files
-*.db
 
 # Swagger related (if it generates any specific files)
 # Add any specific Swagger UI build output directories if applicable
@@ -59,7 +56,6 @@ Thumbs.db
 # Local development files (you might want to keep some)
 # .env  # Be VERY careful about ignoring this if it contains sensitive information
 # config.ini
-# secrets.json
 
 # Other temporary files
 *.pyc
