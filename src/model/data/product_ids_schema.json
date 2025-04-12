@@ -12,12 +12,13 @@
     },
     "required": [
       "product_ids"
-    ]
-  },
+    ],
     "example": {
-    "product_ids": [
-      5,
-      6
-    ]
+      "product_ids": [
+        4,
+        5,
+        6
+      ]
+    }
   }
 }

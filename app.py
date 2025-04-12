@@ -187,23 +187,19 @@ def listar_produtos_por_preco():
 @app.route('/')
 def redirect_to_swagger():
     """Redireciona para a página do Swagger UI."""
-    return redirect('/apidocs/')
+    return rredirect('/apidocs/')
 
 
 @app.route('/produtos_enviar', methods=['POST'])
 @swag_from({
     'summary': 'Cria um novo pedido',
+    'consumes': ['application/json'],
     'parameters': [
         {
             'name': 'body',
             'in': 'body',
             'required': True,
-            'content': {
-                'application/json': {
-                    'schema': product_ids_schema.get('Product_ids', {}),  # Usa o schema carregado
-                    'example': product_ids_schema.get('example', {})  # Adiciona a chave 'example'
-                }
-            }
+            'schema': product_ids_schema.get('Product_ids', {}),  # Usa o schema carregado
         }
     ],
     'responses': {
