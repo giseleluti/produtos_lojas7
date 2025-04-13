@@ -7,7 +7,7 @@ from flask import jsonify
 from src.repository_cache.produto_db import ProdutoDBService
 
 logger = logging.getLogger(__name__)
-ENDPOINT_EXTERNO_URL = "http://127.0.0.1:5003/pedidos"
+ENDPOINT_EXTERNO_URL = "http://pedidos_lojas7:5003/pedidos/criar"
 db_path = 'src/model/data/produtos.db'
 produto_db_service = ProdutoDBService(db_path)
 

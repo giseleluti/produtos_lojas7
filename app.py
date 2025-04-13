@@ -193,7 +193,6 @@ def redirect_to_swagger():
 @app.route('/produtos_enviar', methods=['POST'])
 @swag_from({
     'summary': 'Cria um novo pedido',
-    'consumes': ['application/json'],
     'parameters': [
         {
             'name': 'body',
